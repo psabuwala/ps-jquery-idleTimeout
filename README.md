@@ -1,5 +1,11 @@
 # jquery-idleTimeout
 
+November 2021: Please note, I am no longer able to maintain this code. When I wrote the code, I used clear naming conventions and numerous comments to make it easy for others to follow and modify the code. The code, as it is at this point in time, is untested on the most recent browsers, and needs to have some bugs fixed. 
+
+# IF YOU WANT TO TAKE OVER OWNERSHIP OF THIS REPOSITORY:
+Please read https://docs.github.com/en/repositories/creating-and-managing-repositories/transferring-a-repository
+and let's do it!
+
 Highly configurable idle (no activity) timer and logout redirect for jQuery.
 
 **Functions across multiple browser windows, tabs and, optionally, iframes (single or nested) as long as the iframes meet the '[Same-Origin Policy](http://en.wikipedia.org/wiki/Same-origin_policy)'.**
