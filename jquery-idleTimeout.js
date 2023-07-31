@@ -101,12 +101,12 @@
 
     //----------- ACTIVITY DETECTION FUNCTION --------------//
     activityDetector = function () {
-
-      $('body').on(currentConfig.activityEvents, function () {
-
-        if (!currentConfig.enableDialog || (currentConfig.enableDialog && isDialogOpen() !== true)) {
-          startIdleTimer();
-        }
+      $(document).ready(function() {
+        $('body').on(currentConfig.activityEvents, function () {
+          if (!currentConfig.enableDialog || (currentConfig.enableDialog && isDialogOpen() !== true)) {
+            startIdleTimer();
+          }
+        });
       });
     };
 
